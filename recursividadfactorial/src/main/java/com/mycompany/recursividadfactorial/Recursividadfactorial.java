@@ -19,3 +19,10 @@ public class Recursividadfactorial {
             return n * factorial(n - 1);
         }
     }
+    //agregamos un main y llamamos a la funcion factorial
+    
+    public static void main(String[] args) {
+   
+    int numero = 5;
+
+   int resultado = factorial(numero);
