@@ -26,3 +26,5 @@ public class Recursividadfactorial {
     int numero = 5;
 
    int resultado = factorial(numero);
+       System.out.println("El factorial de " + numero + " es " + resultado);
+}
